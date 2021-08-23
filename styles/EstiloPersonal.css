@@ -34,6 +34,8 @@ nav a:hover {
     border-color: rgb(43, 185, 171);
     position: relative;
     left: 900px;
+    width: 240 px;
+    height: 300px;
 }
 
 h3 {
