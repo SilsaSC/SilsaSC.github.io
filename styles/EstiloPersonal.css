@@ -58,7 +58,7 @@ section {
 }
 
 #barraLateral {
-    background-color: rgb(142, 211, 85);
+    background-color: rgb(93, 133, 61);
     float: right;
     width: 400px;
     height: 650px;
@@ -156,6 +156,7 @@ section {
 }
 
 .main {
+    width: auto;
     height: auto;
 }
 
