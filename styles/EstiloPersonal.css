@@ -172,6 +172,15 @@ h2 {
     color: rgb(238, 109, 16);
 }
 
+#h2 {
+    color: #ffff;
+    background-image: linear-gradient(to left, rgb(201, 170, 134), rgb(202, 125, 89), rgb(224, 120, 35), rgb(230, 102, 17), rgb(240, 53, 6));
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 100%;
+    text-align: center;
+}
+
 #PiePag {
     position: relative;
 }
