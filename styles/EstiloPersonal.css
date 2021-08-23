@@ -12,7 +12,6 @@ body {
 
 nav {
     font-size: 125%;
-    letter-spacing: 30%;
     height: 25px;
     padding: 20px 50px 0 0;
     background-color: rgb(199, 79, 10);
@@ -34,7 +33,7 @@ nav a:hover {
     border-color: rgb(43, 185, 171);
     position: relative;
     left: 900px;
-    width: 240 px;
+    width: 240px;
     height: 300px;
 }
 
@@ -164,7 +163,6 @@ section {
 
 h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    size: 20px;
     color: saddlebrown;
 }
 
@@ -175,7 +173,7 @@ h2 {
 #h2 {
     color: #ffff;
     background-image: linear-gradient(to left, rgb(201, 170, 134), rgb(202, 125, 89), rgb(224, 120, 35), rgb(230, 102, 17), rgb(240, 53, 6));
-    background-clip: text;
+    background-clip: content-box;
     animation: color 3s linear infinite;
     background-size: 100%;
     text-align: center;
