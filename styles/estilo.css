@@ -5,6 +5,27 @@
     padding: 1px 0;
 }
 
+h1 {
+    font-family: 'Chonburi', cursive !important;
+    font-size: 50px;
+    color: rgb(72, 17, 124);
+}
+
+h4 {
+    font-family: 'Reggae One', cursive !important;
+    font-size: 30px;
+    color: rgb(9, 80, 74);
+}
+
+.presentacion {
+    font-family: 'Bungee Inline', cursive !important;
+    font-size: 50px;
+    color: rgb(7, 90, 28);
+}
+
+
+/* Inicio*/
+
 .carousel-inner {
     max-height: 40rem;
 }
@@ -13,18 +34,56 @@
     position: absolute;
     top: 0%;
     font-size: 20px;
-    font-family: fantasy;
+    font-family: 'Rye', cursive;
     right: 15%;
     bottom: 20%;
     left: 10%;
     padding-top: 10px;
     padding-bottom: 20px;
-    color: #57b738;
+    color: #ffce48;
     text-align: left;
 }
 
 body {
     background-color: cadetblue;
+}
+
+
+/*Barra de navegación*/
+
+.navbar {
+    background-color: #10470e !important;
+    font-size: 15px !important;
+    font-family: 'Rye', cursive;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    border: 0;
+}
+
+.navbar a {
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Rye', cursive;
+}
+
+
+/*BARRA DE MENU*/
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4621e !important;
+    background-color: rgb(112, 240, 245) !important;
+}
+
+h5 {
+    font-family: 'Rye', cursive !important;
+    font-size: 60px !important;
+    color: rgb(151, 40, 12) !important;
 }
 
 
@@ -67,6 +126,7 @@ footer {
 
 .conten-footer h4 {
     color: rgb(105, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 5px solid rgb(36, 1, 1);
     padding-bottom: 3px;
     margin-bottom: 8px;
@@ -90,6 +150,13 @@ footer {
 h3 {
     text-align: center;
     color: rgb(209, 169, 206);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rye', cursive !important;
+    font-size: 60px !important;
+    color: rgb(10, 81, 139) !important;
 }
 
 h5 {
