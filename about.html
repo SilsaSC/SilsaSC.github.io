@@ -4,105 +4,186 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mi información </title>
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles/EstiloPersonal.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/estilo.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
-    <header>
-        <h1>A cerca de mí: </h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="contac.html">Contacto</a>
+    <!-- Barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logotipo" src="imagenes/logo.JPG" alt="foto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html"> <i class="icon-home" style="color: aliceblue;"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> <i class="icon-profile" style="color: aliceblue;"></i>Acerca de Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contac.html"> <i class="icon-address-book" style="color: aliceblue;"></i>Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section class="Experiencialaboral">
-            <h2>Experiencia laboral</h2>
-            <div class="bloques">
-                <div class="bloque">
-                    <img src="imagenes/equipo.jpeg" alt="foto" title="equipo" />
-                    <div class="texto">
-                        <h4>Trabajar en equipo</h4>
-                        <p>Coordinador de equipos de trabajo, "divide y venceras".</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <h2>Hobis</h2>
-            <div class="bloques">
-                <div class="bloque">
-                    <img src="imagenes/cmusica.jpg" alt="foto" title="Escuchar música" />
-                    <div class="texto">
-                        <h4>Escuchar música</h4>
-                        <p>Sin música la vida seria un error.</p>
-                    </div>
-                </div>
-                <div class="bloque">
-                    <img src="imagenes/correr.jpg" alt="foto" title="Escuchar música" />
-                    <div class="texto">
-                        <h4>Hacer ejercicio</h4>
-                        <p>"Para triunfar en la vida, no es importante llegar el primero."</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <h2>Lugares visitados</h2>
-            <div class="bloques">
-                <div class="bloque">
-                    <img src="imagenes/llacanora.png" alt="foto" title="Llacanora" />
-                    <div class="texto">
-                        <h4>Llacanora</h4>
-                        <p>Hermoso lugar turistico, no dejes de visitarlo.</p>
-                    </div>
-                </div>
-                <div class="bloque">
-                    <img src="imagenes/salaverry.jpg" alt="foto" title="Playa Salaverry" />
-                    <div class="texto">
-                        <h4>Playa Salaverry</h4>
-                        <p>El sol brilla en todo el mundo, no solo en la playa.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Fin de la Barra de navegación-->
+    <!--Social media-->
+    <aside>
+        <div class="social-bar">
+            <a href="https://www.facebook.com/" class="icon icon-facebook2" target="_blank"></a>
+            <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/" class="icon icon-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+            <a href="https://web.telegram.org/k/" class="icon icon-telegram" target="_blank"></a>
+            <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+            <a href="mailto:silsascallirgos@gmail.com" class="icon icon-mail" target="_blank"></a>
+            <a href="https://web.whatsapp.com/" class="icon icon-whatsapp" target="_blank"></a>
 
+        </div>
+    </aside>
+    <!-- Inicio del album de las fotos-->
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row p-5">
+                    <h2 class="text-success text-center border-top border-bottom border-3">Estas en la sessión de mi información</h2>
+                </div>
+                <div class="row text-center">
+                    <h4 class="text-danger">***Mi experiencia laboral***</h4>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-4 text-center">
+                        <img src="imagenes/agentes-bcp.jpg" class="img-fluid img-thumbnail  w-100" alt="foto" />
+                        <h4>Cajera</h4>
+                        <p>Este fue mi primer trabajo, yo me ocupaba de cobrar los servicios que ofrecia el agente BCP como agua, luz, internet, depositos a cuentas bancarias, etc.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <img src="imagenes/san miguel.jpg" class="img-fluid img-thumbnail w-100" alt="foto" />
+                        <h4>Masera</h4>
+                        <p>Este era mi trabajo, en la provincia de San Miguel para ayudar a mis padres
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <img src="imagenes/comiendo elado.jpg" class="img-fluid img-thumbnail w-100" alt="foto" />
+                        <h4>Trabajar en equipo</h4>
+                        <p>Hoy en día trabajar en equipo se a vuelto primordial, por ello me gusta ser Coordinador de algunos equipos de trabajo, como dice la frase "divide y venceras".</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <aside id="barraLateral">
-            <h2>Mis comidas favoritas</h2>
-            <div class="comidas">
-                <div class="comida">
-                    <img src="imagenes/cuy_frito.jpg" alt="foto" />
-                    <div class="texto">
-                        <h4>Cuy frito con papa</h4>
+        <!--Lugares visitados-->
+        </section>
+
+        <section>
+            <section class="align-content-center">
+                <!-- Carrosel-->
+                <div class="row text-center">
+                    <h4 class="text-danger">***Mis platos Favoritos***</h4>
+                </div>
+                <div class="row container text-center border-bottom">
+
+                    <div class="container" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenes/comida1.jpg" class="img-fluid img-thumbnail" alt="imagen 01">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Causa Rellena</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/comida2.jpeg" class="img-fluid img-thumbnail" alt="imagen 02">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Parrillada</h5>
+                                    <p>Por este pequeño espacio les estare compartiendo algunos momentos importantes de mi vida</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/comida3.jpg" class="img-fluid img-thumbnail" alt="imagen 03">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Ceviche</h5>
+                                    <p>Será muy divertido, ya que pronto estare publicando más novedades</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/comida4.jpg" class="dimg-fluid img-thumbnail" alt="imagen 04">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Pollo a la braza</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
                     </div>
                 </div>
-            </div>
-            <div class="comidas">
-                <div class="comida">
-                    <img src="imagenes/ceviche.jpg" alt="foto" width="100" height="100" />
-                    <div class="texto">
-                        <h4>Ceviche</h4>
-                    </div>
                 </div>
-            </div>
-            <div class="comidas">
-                <div class="comida">
-                    <img src="imagenes/causa.jpg" alt="foto" width="100" height="100" />
-                    <div class="texto">
-                        <h4>Causa rellena</h4>
-                    </div>
+
+            </section>
+            <!--Mi familia-->
+            <section>
+                <div class="w-5 m-auto text-center" id="familia">
+                    <h1 class="mb-5 fs-2 text-decoration-underline">Mi pequeña familia</h1>
+                    <p class="fs-4">Siempre busco que mi familia este unida y feliz que tengan salud, amor y paz, es muy importante para mí que se encuentren bien, por motivos que vivemos distanciados les voy a compratir algunos momentos vividos con ellos.
+                    </p>
                 </div>
-            </div>
-        </aside>
+
+
+            </section>
 
     </main>
-    <footer>
-        <h3>&copy;<strong><i>Silsa S.C</i></strong> &copy;</h3>
-        <h3>2021</h3>
+
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-2 text-center ">
+                <img src="imagenes/logo.JPG " class="img-footer " alt="foto">
+            </div>
+            <div class="col-12 col-sm-10 text-center">
+                <div class="conteiner-footer">
+                    <div class="conten-footer">
+                        <h4>Email</h4>
+                        <a href="mailto:silsascallirgos@gmail.com">silsascallirgos@gmail.com</a>
+                    </div>
+                    <div class="conten-footer">
+                        <h4>Phone</h4>
+                        <p>999918000</p>
+                    </div>
+                </div>
+                <h2 class="tituloFinal">&copy;<strong><i>Silsa S.C || 2021</i></strong></h2>
+                <h3>Estudiante de Ingeniería de Sistemas</h3>
+            </div>
+        </div>
     </footer>
 
+
     <script src="" async defer></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

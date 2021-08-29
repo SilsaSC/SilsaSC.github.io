@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.logotipo {
+    width: 100PX;
+    height: 45px;
+    padding: 1px 0;
+}
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0%;
+    font-size: 20px;
+    font-family: fantasy;
+    right: 15%;
+    bottom: 20%;
+    left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #57b738;
+    text-align: left;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+
+/*Para pantalla pequeña*/
+
+@media(max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
+
+.imagenesImformacion {
+    width: 50%;
+    height: 50%;
+}
+
+
+/*Footer*/
+
+footer {
+    background: rgb(9, 80, 74);
+    margin: auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.conteiner-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(224, 94, 7);
+}
+
+.conten-footer {
+    text-align: center;
+}
+
+.conten-footer h4 {
+    color: rgb(105, 8, 8);
+    border-bottom: 5px solid rgb(36, 1, 1);
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+}
+
+.tituloFinal {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    color: rgb(105, 8, 8);
+    padding-top: 3px;
+}
+
+.img-footer {
+    padding-top: 50px;
+}
+
+
+/*Fin Footer*/
+
+h3 {
+    text-align: center;
+    color: rgb(209, 169, 206);
+}
+
+h5 {
+    color: rgb(238, 238, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+/*fon iconos */
+
+.social-bar {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre*/
+    right: 0;
+    /*Lo ponemos a la derecha de nuestra pantalla*/
+    top: 25%;
+    /*Lo posicionamos casi al centro*/
+    font-size: 1.5rem;
+    display: flex;
+    /*Aplicamos la propiedad flex*/
+    flex-direction: column;
+    /*Cambiamos el flujo que viene por defecto*/
+    align-items: flex-end;
+    /*Alineamos hacia la parte inferior*/
+    z-index: 100;
+    /*Ubicamos la barra por encima del resto de los elementos*/
+}
+
+.icon {
+    color: rgb(247, 255, 255);
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2 {
+    background-color: rgb(19, 16, 209);
+}
+
+.icon-twitter {
+    background-color: rgb(40, 215, 228);
+}
+
+.icon-linkedin {
+    background-color: rgb(43, 40, 228);
+}
+
+.icon-youtube {
+    background-color: rgb(206, 7, 7);
+}
+
+.icon-instagram {
+    background-color: darkred;
+}
+
+.icon-telegram {
+    background-color: rgb(9, 147, 211);
+}
+
+.icon-mail {
+    background-color: rgb(139, 137, 0);
+}
+
+.icon-whatsapp {
+    background-color: rgb(11, 163, 6);
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
