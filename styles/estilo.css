@@ -13,7 +13,7 @@ h1 {
 
 h4 {
     font-family: 'Reggae One', cursive !important;
-    font-size: 30px;
+    font-size: 15px !important;
     color: rgb(9, 80, 74);
 }
 
@@ -21,6 +21,20 @@ h4 {
     font-family: 'Bungee Inline', cursive !important;
     font-size: 50px;
     color: rgb(7, 90, 28);
+}
+
+
+/*Tablas*/
+
+th {
+    color: rgb(121, 10, 19);
+    font-size: 18px;
+    font-family: 'Rye', cursive !important;
+}
+
+td {
+    color: rgb(16, 7, 99);
+    font-size: 15px;
 }
 
 
@@ -45,14 +59,14 @@ h4 {
 }
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(114, 170, 172);
 }
 
 
 /*Barra de navegación*/
 
 .navbar {
-    background-color: #10470e !important;
+    background-color: #3b886b !important;
     font-size: 15px !important;
     font-family: 'Rye', cursive;
     letter-spacing: 2px;
@@ -61,7 +75,7 @@ body {
 }
 
 .navbar a {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 20px;
     font-family: 'Rye', cursive;
 }
@@ -71,7 +85,7 @@ body {
 
 .navbar li a,
 .navbar .navbar-brand {
-    color: #fff !important;
+    color: rgb(5, 63, 99) !important;
 }
 
 .navbar-nav li a:hover,
@@ -104,7 +118,7 @@ h5 {
 /*Footer*/
 
 footer {
-    background: rgb(9, 80, 74);
+    background: rgba(12, 12, 12, 0.815);
     margin: auto;
     overflow: hidden;
     clear: both;
@@ -149,7 +163,7 @@ footer {
 
 h3 {
     text-align: center;
-    color: rgb(209, 169, 206);
+    color: rgb(59, 6, 56);
 }
 
 h2 {
