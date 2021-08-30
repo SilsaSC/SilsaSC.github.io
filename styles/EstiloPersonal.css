@@ -1,198 +1,124 @@
-header {
-    margin-top: 0;
-    background-image: url(/imagenes/fondo.jpg);
-    font-size: 100%;
-    font-family: 'Times New Roman', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
-    height: 200%;
+@charset "UTF-8";
+.logotipo {
+    width: 100PX;
+    height: 45px;
+    padding: 1px 0;
 }
 
-body {
-    background-color: rgba(250, 250, 250, 0.959);
-}
-
-.carousel-inner {
-    max-height: 25rem;
-}
-
-
-/*nav {
-    font-size: 125%;
-    height: 25px;
-    padding: 20px 50px 0 0;
-    background-color: rgb(199, 79, 10);
-}
-
-nav a {
-    color: rgb(226, 236, 234);
-    font-family: 'Times New Roman', Times, serif;
-    margin: 15px;
-}
-
-nav a:hover {
-    color: rgb(174, 31, 218);
-}*/
-
-#foto1 {
-    display: block;
-    border-radius: 100%;
-    border-color: rgb(43, 185, 171);
-    position: relative;
-    left: 900px;
-    width: 240px;
-    height: 300px;
-}
-
-h3 {
-    text-align: center;
-    color: rgb(82, 12, 82);
-}
-
-#titulo {
-    text-align: center;
-    display: block;
-    color: rgb(243, 59, 13);
-    font-size: 40px;
-}
-
-section {
-    float: right;
-    height: 150px;
-    width: 800px;
-    margin-top: 0px;
-    margin-right: 400px;
-    margin-bottom: 20px;
-}
-
-#barraLateral {
-    background-color: rgb(93, 133, 61);
-    float: right;
-    width: 400px;
-    height: 650px;
-    margin-bottom: 80px;
-    position: relative;
-    margin-left: 65%;
-}
-
-
-/*Cerca de Mí*/
-
-
-/*****hobiea***********/
-
-.bloques {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.bloques .bloque {
-    background: rgb(235, 162, 94);
-    display: flex;
-    width: 46%;
-    height: 180px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgb(180, 80, 13);
-}
-
-.bloques .bloque img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50px;
-    display: block;
-}
-
-.bloques.bloque>.texto {
-    width: 60%;
-    color: rgb(37, 78, 201);
-}
-
-
-/** Comidas*/
-
-.comidas {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.comidas .comida {
-    display: flex;
-    width: 46%;
-    height: 180px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-}
-
-.comidas .comida img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid rgb(245, 244, 248);
-    border-radius: 50px;
-    display: block;
-}
-
-
-/*Contactos*/
-
-.contactos {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0px;
-}
-
-.contactos .contacto {
-    display: flex;
-    width: 46%;
-    height: 180px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-}
-
-.contactos .contacto img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 50px;
-    display: block;
-}
-
-.main {
-    width: auto;
-    height: auto;
+h1 {
+    font-family: 'Chonburi', cursive !important;
+    font-size: 50px;
+    color: rgb(72, 17, 124);
 }
 
 h4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: saddlebrown;
+    font-family: 'Reggae One', cursive !important;
+    font-size: 15px !important;
+    color: rgb(9, 80, 74);
 }
 
-h2 {
-    color: rgb(238, 109, 16);
-}
-
-#h2 {
-    color: #ffff;
-    background-image: linear-gradient(to left, rgb(201, 170, 134), rgb(202, 125, 89), rgb(224, 120, 35), rgb(230, 102, 17), rgb(240, 53, 6));
-    background-clip: content-box;
-    animation: color 3s linear infinite;
-    background-size: 100%;
-    text-align: center;
-}
-
-#PiePag {
-    position: relative;
+.presentacion {
+    font-family: 'Bungee Inline', cursive !important;
+    font-size: 50px;
+    color: rgb(7, 90, 28);
 }
 
 
-/*Foooter*/
+/*Tablas*/
+
+th {
+    color: rgb(121, 10, 19);
+    font-size: 18px;
+    font-family: 'Rye', cursive !important;
+}
+
+td {
+    color: rgb(16, 7, 99);
+    font-size: 15px;
+}
+
+
+/* Inicio*/
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0%;
+    font-size: 20px;
+    font-family: 'Rye', cursive;
+    right: 15%;
+    bottom: 20%;
+    left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #ffce48;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(114, 170, 172);
+}
+
+
+/*Barra de navegación*/
+
+.navbar {
+    background-color: #3b886b !important;
+    font-size: 15px !important;
+    font-family: 'Rye', cursive;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    border: 0;
+}
+
+.navbar a {
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Rye', cursive;
+}
+
+
+/*BARRA DE MENU*/
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: rgb(5, 63, 99) !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4621e !important;
+    background-color: rgb(112, 240, 245) !important;
+}
+
+h5 {
+    font-family: 'Rye', cursive !important;
+    font-size: 60px !important;
+    color: rgb(151, 40, 12) !important;
+}
+
+
+/*Para pantalla pequeña*/
+
+@media(max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
+
+.imagenesImformacion {
+    width: 50%;
+    height: 50%;
+}
+
+
+/*Footer*/
 
 footer {
-    background: rgb(16, 175, 162);
+    background: rgba(12, 12, 12, 0.815);
     margin: auto;
     overflow: hidden;
     clear: both;
@@ -203,6 +129,7 @@ footer {
     width: 90%;
     justify-content: space-evenly;
     margin: auto;
+    padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 2px solid rgb(224, 94, 7);
 }
@@ -213,6 +140,7 @@ footer {
 
 .conten-footer h4 {
     color: rgb(105, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 5px solid rgb(36, 1, 1);
     padding-bottom: 3px;
     margin-bottom: 8px;
@@ -221,6 +149,107 @@ footer {
 .tituloFinal {
     text-align: center;
     font-size: 24px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     color: rgb(105, 8, 8);
+    padding-top: 3px;
+}
+
+.img-footer {
+    padding-top: 50px;
+}
+
+
+/*Fin Footer*/
+
+h3 {
+    text-align: center;
+    color: rgb(59, 6, 56);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rye', cursive !important;
+    font-size: 60px !important;
+    color: rgb(10, 81, 139) !important;
+}
+
+h5 {
+    color: rgb(238, 238, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+/*fon iconos */
+
+.social-bar {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre*/
+    right: 0;
+    /*Lo ponemos a la derecha de nuestra pantalla*/
+    top: 25%;
+    /*Lo posicionamos casi al centro*/
+    font-size: 1.5rem;
+    display: flex;
+    /*Aplicamos la propiedad flex*/
+    flex-direction: column;
+    /*Cambiamos el flujo que viene por defecto*/
+    align-items: flex-end;
+    /*Alineamos hacia la parte inferior*/
+    z-index: 100;
+    /*Ubicamos la barra por encima del resto de los elementos*/
+}
+
+.icon {
+    color: rgb(247, 255, 255);
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2 {
+    background-color: rgb(19, 16, 209);
+}
+
+.icon-twitter {
+    background-color: rgb(40, 215, 228);
+}
+
+.icon-linkedin {
+    background-color: rgb(43, 40, 228);
+}
+
+.icon-youtube {
+    background-color: rgb(206, 7, 7);
+}
+
+.icon-instagram {
+    background-color: darkred;
+}
+
+.icon-telegram {
+    background-color: rgb(9, 147, 211);
+}
+
+.icon-mail {
+    background-color: rgb(139, 137, 0);
+}
+
+.icon-whatsapp {
+    background-color: rgb(11, 163, 6);
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
