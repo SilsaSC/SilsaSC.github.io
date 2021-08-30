@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+    background-color: rgb(114, 170, 172);
+}
+
 .logotipo {
     width: 100PX;
     height: 45px;
@@ -13,7 +17,7 @@ h1 {
 
 h4 {
     font-family: 'Reggae One', cursive !important;
-    font-size: 15px !important;
+    font-size: 25px !important;
     color: rgb(9, 80, 74);
 }
 
@@ -56,10 +60,6 @@ td {
     padding-bottom: 20px;
     color: #ffce48;
     text-align: left;
-}
-
-body {
-    background-color: rgb(114, 170, 172);
 }
 
 
@@ -141,6 +141,7 @@ footer {
 .conten-footer h4 {
     color: rgb(105, 8, 8);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     border-bottom: 5px solid rgb(36, 1, 1);
     padding-bottom: 3px;
     margin-bottom: 8px;
@@ -148,7 +149,7 @@ footer {
 
 .tituloFinal {
     text-align: center;
-    font-size: 24px;
+    font-size: 25px !important;
     margin: 10px 0 0 0;
     color: rgb(105, 8, 8);
     padding-top: 3px;
@@ -163,7 +164,7 @@ footer {
 
 h3 {
     text-align: center;
-    color: rgb(59, 6, 56);
+    color: rgb(91, 212, 176);
 }
 
 h2 {
