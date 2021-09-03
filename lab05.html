@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Primera página web con javascripT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/lab05.css">
+</head>
+
+<body>
+    <section>
+        <div class="cuerpo">
+            <h1 id="titulo">LAB 05: TALLER DE JAVASCRIPT</h1>
+            <div class="bloques">
+                <div class="datos">
+                    <table class="datosPersonales">
+                        <tr>
+                            <td class="textoFijo_color1">
+                                <h3>Apellidos y nombres:</h3>
+                            </td>
+                            <td class="Fijo_textoIngresado">
+                                <input id="idname" type="text" name="name" placeholder="Ingrese su nombre y apellido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textoFijo_color1">
+                                <h3 id="fechaNaci">Fecha de nacimiento:</h3>
+                            </td>
+                            <td class="Fijo_textoIngresado">
+                                <input id="iddate" type="date" name="date" min="1980-01-01" max="2021-12-31">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="botones">
+                    <button id="btnextraer">Extraer</button>
+                    <button id="btncolorear">Colorear</button>
+                </div>
+            </div>
+            <!--*****Para la parte de los resultados*****-->
+            <div class="Resultados">
+                <div class="resultado">
+                    <table class="resultadosDatosPersonales">
+                        <tr>
+                            <td class="textoFijo_color1">
+                                <h3>Apellido Paterno:</h3>
+                            </td>
+                            <td class="Fijo_textoIngresado">
+                                <input id="idPaterno" type="text" name="paterno">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textoFijo_color1">
+                                <h3>Apellido Materno:</h3>
+                            </td>
+                            <td class="Fijo_textoIngresado">
+                                <input id="idMaterno" type="text" name="materno">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textoFijo_color1">
+                                <h3>Nombres:</h3>
+                            </td>
+                            <td class="Fijo_textoIngresado">
+                                <input id="idnombre" type="text" name="nombre">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="fecha">
+                    <table>
+                        <tr>
+                            <td class="textoFijo_color2">
+                                <h3>Longitud del apellido:</h3>
+                            </td>
+                            <td class="Fijo_textoextraido">
+                                <input id="idlongitud" type="text" name="longitud">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textoFijo_color2">
+                                <h3>Edad:</h3>
+                            </td>
+                            <td class="Fijo_textoextraido">
+                                <input id="idedad" type="text" name="edad">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textoFijo_color2">
+                                <h3>Mes en letras:</h3>
+                            </td>
+                            <td class="Fijo_textoextraido">
+                                <input id="idmes" type="text" name="mes">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/lab05.js"></script>
+</body>
+
+</html>
