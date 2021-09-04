@@ -63,25 +63,30 @@ body {
     margin: 20px;
 }
 
-#btnextraer {
+.btnextraer {
     background-color: rgb(202, 176, 26);
-    height: 60px;
     width: 170px;
+    height: 30px;
     border: solid rgb(248, 248, 248);
     border-radius: 10px;
-    color: white;
-    font-size: 25px;
-    margin-right: 20px;
+    margin: 20px;
 }
 
-#btncolorear {
+button {
+    height: 50px;
+    width: 170px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+}
+
+.btncolorear {
     background-color: rgb(230, 99, 11);
-    height: 60px;
+    height: 30px;
     width: 170px;
     border: solid rgb(8, 7, 7);
     border-radius: 10px;
-    color: white;
-    font-size: 25px;
+    margin: 20px;
 }
 
 

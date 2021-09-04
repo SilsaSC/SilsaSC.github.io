@@ -19,10 +19,16 @@
                     <table class="datosPersonales">
                         <tr>
                             <td class="textoFijo_color1">
-                                <h3>Apellidos y nombres:</h3>
+                                <h3>Apellidos y nombre:</h3>
                             </td>
                             <td class="Fijo_textoIngresado">
-                                <input id="idname" type="text" name="name" placeholder="Ingrese su nombre y apellido">
+                                <input id="idname" type="text" name="name" placeholder="Ingrese sus apellido y nombre">
+                            </td>
+                            <td class="btnextraer">
+                                <button type="button" id="btnextraer">Extraer</button>
+                            </td>
+                            <td class="btncolorear">
+                                <button id="btncolorear">Colorear</button>
                             </td>
                         </tr>
                         <tr>
@@ -35,10 +41,6 @@
                         </tr>
                     </table>
                 </div>
-                <div class="botones">
-                    <button id="btnextraer">Extraer</button>
-                    <button id="btncolorear">Colorear</button>
-                </div>
             </div>
             <!--*****Para la parte de los resultados*****-->
             <div class="Resultados">
@@ -49,7 +51,7 @@
                                 <h3>Apellido Paterno:</h3>
                             </td>
                             <td class="Fijo_textoIngresado">
-                                <input id="idPaterno" type="text" name="paterno">
+                                <input id="idPaterno" type="text" name="Appaterno" readonly>
                             </td>
                         </tr>
                         <tr>
@@ -57,7 +59,7 @@
                                 <h3>Apellido Materno:</h3>
                             </td>
                             <td class="Fijo_textoIngresado">
-                                <input id="idMaterno" type="text" name="materno">
+                                <input id="idMaterno" type="text" name="Apmaterno" readonly>
                             </td>
                         </tr>
                         <tr>
@@ -65,7 +67,7 @@
                                 <h3>Nombres:</h3>
                             </td>
                             <td class="Fijo_textoIngresado">
-                                <input id="idnombre" type="text" name="nombre">
+                                <input id="idnombre" type="text" name="nombre" readonly>
                             </td>
                         </tr>
                     </table>
@@ -77,7 +79,7 @@
                                 <h3>Longitud del apellido:</h3>
                             </td>
                             <td class="Fijo_textoextraido">
-                                <input id="idlongitud" type="text" name="longitud">
+                                <input id="idlongitud" type="text" name="longitud" readonly>
                             </td>
                         </tr>
                         <tr>
@@ -85,7 +87,7 @@
                                 <h3>Edad:</h3>
                             </td>
                             <td class="Fijo_textoextraido">
-                                <input id="idedad" type="text" name="edad">
+                                <input id="idedad" type="text" name="edad" readonly>
                             </td>
                         </tr>
                         <tr>
@@ -93,7 +95,7 @@
                                 <h3>Mes en letras:</h3>
                             </td>
                             <td class="Fijo_textoextraido">
-                                <input id="idmes" type="text" name="mes">
+                                <input id="idmes" type="text" name="mes" readonly>
                             </td>
                         </tr>
                     </table>
