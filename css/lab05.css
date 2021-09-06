@@ -4,8 +4,8 @@
 }
 
 body {
-    margin: 50px;
-    padding: 20px;
+    margin: 30px;
+    padding: 10px;
     /*Para los datos que vamos a ingresar*/
 }
 
@@ -161,7 +161,6 @@ button {
     color: white;
     height: 30px;
     width: 500px;
-    margin: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
